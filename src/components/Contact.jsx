@@ -17,9 +17,46 @@ export default function Contact() {
     console.log("Form submitted:", form);
   };
 
-  return (
-    <section className="min-h-screen bg-gradient-to-br from-gray-100 to-white py-16 px-4 sm:px-6 lg:px-8">
-      <div className="mt-20 max-w-lg mx-auto bg-white/80 backdrop-blur-lg rounded-xl shadow-lg p-6 sm:p-8 border border-gray-200">
+return (
+  <section className="min-h-screen bg-gradient-to-br from-gray-100 to-white py-16 px-4 sm:px-6 lg:px-8">
+    <div className="mt-20 max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+      {/* LEFT SIDE - Contact Info Card */}
+      <div className="bg-white/80 backdrop-blur-lg border border-gray-200 rounded-xl shadow-lg p-6 sm:p-8">
+        <h2 className="text-3xl font-bold text-gray-800 mb-4">Get in Touch</h2>
+        <p className="text-gray-600 mb-6">
+          Feel free to reach out for collaborations, freelance work, or just a friendly hello!
+        </p>
+
+        <div className="space-y-4 text-sm sm:text-base">
+          <div className="flex items-center gap-3">
+            <span className="font-semibold">📧 Email:</span>
+            <a href="mailto:shekharsingh7900@gmail.com" className="text-indigo-700 hover:underline">
+              shekharsingh7900@gmail.com
+            </a>
+          </div>
+          <div className="flex items-center gap-3">
+            <span className="font-semibold">📱 Phone:</span>
+            <a href="tel:+919876543210" className="text-indigo-700 hover:underline">
+              +91 75007-98556
+            </a>
+          </div>
+          <div className="flex items-center gap-3">
+            <span className="font-semibold">💼 LinkedIn:</span>
+            <a href="https://linkedin.com/in/shekhaar" target="_blank" rel="noreferrer" className="text-indigo-700 hover:underline">
+              linkedin.com/in/shekhaar
+            </a>
+          </div>
+          <div className="flex items-center gap-3">
+            <span className="font-semibold">🐙 GitHub:</span>
+            <a href="https://github.com/shekhar-sainii" target="_blank" rel="noreferrer" className="text-indigo-700 hover:underline">
+              github.com/shekhar-sainii
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* RIGHT SIDE - Contact Form */}
+      <div className="bg-white/80 backdrop-blur-lg rounded-xl shadow-lg p-6 sm:p-8 border border-gray-200">
         <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-8">
           Contact Me
         </h2>
@@ -99,6 +136,8 @@ export default function Contact() {
           </div>
         </form>
       </div>
-    </section>
-  );
+    </div>
+  </section>
+);
+
 }

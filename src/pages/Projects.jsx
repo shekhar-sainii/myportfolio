@@ -3,28 +3,36 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const projects = [
   {
-    title: "Portfolio Website",
+    title: "Clothes Website",
     description: "A responsive personal portfolio built with React and Tailwind CSS to showcase projects and skills.",
     tech: ["React", "Tailwind CSS", "JavaScript"],
     github: "https://github.com/your-username/portfolio",
     demo: "https://your-portfolio.vercel.app",
-    image: "https://pro2-bar-s3-cdn-cf1.myportfolio.com/598e7543d77ac2401458bb2a07e7c8b8/ced67751-275b-4945-9fdc-030b5e0cef45_rwc_1087x223x1124x880x640.jpg?h=6ef5b2317bada4606bc588f93e7d9da4",
+    image: "https://repository-images.githubusercontent.com/456963513/82528385-a73f-488f-9003-513321283a6b",
   },
   {
-    title: "Weather App",
+    title: "Weather Website",
     description: "A weather forecasting app using OpenWeatherMap API with modern UI and error handling.",
     tech: ["React", "Axios", "API"],
     github: "https://github.com/your-username/weather-app",
     demo: "https://weather-app.vercel.app",
-    image: "https://pro2-bar-s3-cdn-cf3.myportfolio.com/598e7543d77ac2401458bb2a07e7c8b8/4eb56fdb-37f5-4d53-8114-e0fcd0ea0a22_rwc_581x127x555x434x640.jpg?h=b5c401f5177e16ee20e032f3381ffeaf",
+    image: "https://t3.ftcdn.net/jpg/04/91/54/18/360_F_491541875_c0vIhFwHnRZvmRfJELvJxtSQbRDOwbGC.jpg",
   },
   {
-    title: "Quiz App",
+    title: "Quiz Website",
     description: "An interactive quiz application with score tracking and category filtering.",
     tech: ["React", "Context API", "CSS Modules"],
     github: "https://github.com/your-username/quiz-app",
     demo: "https://quiz-app.vercel.app",
-    image: "https://pro2-bar-s3-cdn-cf6.myportfolio.com/598e7543d77ac2401458bb2a07e7c8b8/a531a371-325c-4fe6-8a32-7e2479759119_carw_202x158x640.jpg?h=acf0e0b3a33c84df690c57b5b366c2a7",
+    image: "https://elements-resized.envatousercontent.com/elements-cover-images/da213823-49b2-440f-9342-db096a16e259?w=433&cf_fit=scale-down&q=85&format=auto&s=fc9b302366d7bd1b7dd09d3a074438deb0744a157e4970b490e9bfde3d1995a3",
+  },
+    {
+    title: "Tender Website",
+    description: "An interactive quiz application with score tracking and category filtering.",
+    tech: ["React", "Context API", "CSS Modules"],
+    github: "https://github.com/your-username/quiz-app",
+    demo: "https://quiz-app.vercel.app",
+    image: "https://prospectdigital.co.in/wp-content/uploads/2018/11/mptenders.gov_.in_.png",
   },
 ];
 

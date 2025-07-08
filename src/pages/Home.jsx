@@ -4,25 +4,25 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   const projects = [
-    {
-      title: "Portfolio",
-      desc: "Responsive personal portfolio with React and Tailwind CSS.",
-      image: "https://pro2-bar-s3-cdn-cf6.myportfolio.com/598e7543d77ac2401458bb2a07e7c8b8/083ae9bb-f0ba-4c9b-9ce4-963eaf1be678_rwc_58x194x1499x1174x640.jpg?h=a3bedca3f9a9eca583e14abbcd942c98",
+     {
+      title: "Weather App",
+      desc: "Live weather forecast using OpenWeatherMap API.",
+      image: "https://t3.ftcdn.net/jpg/04/91/54/18/360_F_491541875_c0vIhFwHnRZvmRfJELvJxtSQbRDOwbGC.jpg",
     },
     {
-      title: "RBI Info Site",
+      title: "Clothes Website",
+      desc: "Responsive personal clothes web with React and Tailwind CSS.",
+      image: "https://repository-images.githubusercontent.com/456963513/82528385-a73f-488f-9003-513321283a6b",
+    },
+    {
+      title: "Tender Info Site",
       desc: "API + XML parsing app that fetches RBI tenders and data.",
-      image: "https://pro2-bar-s3-cdn-cf3.myportfolio.com/598e7543d77ac2401458bb2a07e7c8b8/ead99073-eb3f-4a9d-a7ee-08b219b60660_carw_202x158x640.jpg?h=49fb71d9bdf9f366c6d893e936c38312",
+      image: "https://prospectdigital.co.in/wp-content/uploads/2018/11/mptenders.gov_.in_.png",
     },
     {
       title: "Quiz App",
       desc: "Multiple-choice quiz with scoring and category filtering.",
-      image: "https://pro2-bar-s3-cdn-cf6.myportfolio.com/598e7543d77ac2401458bb2a07e7c8b8/7bf18416-34cc-4738-be38-515395f42512_carw_202x158x640.jpg?h=db2558216bf5fea182fbb6fd9789b1e0",
-    },
-    {
-      title: "Weather App",
-      desc: "Live weather forecast using OpenWeatherMap API.",
-      image: "https://pro2-bar-s3-cdn-cf5.myportfolio.com/598e7543d77ac2401458bb2a07e7c8b8/6ac3326f-9307-4753-8e0d-8b770e310b9a_carw_202x158x640.jpg?h=7ffc7de11489a000671ce6819f78ab1f",
+      image: "https://elements-resized.envatousercontent.com/elements-cover-images/da213823-49b2-440f-9342-db096a16e259?w=433&cf_fit=scale-down&q=85&format=auto&s=fc9b302366d7bd1b7dd09d3a074438deb0744a157e4970b490e9bfde3d1995a3",
     },
   ];
 
@@ -112,7 +112,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-16 px-4 bg-gray-50">
+      <section id="contact" className="py-16 px-4 bg-gray-100">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Get In Touch</h2>
           <p className="text-gray-600 mb-6">
