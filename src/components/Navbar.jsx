@@ -71,7 +71,7 @@ export default function Example() {
                         className={classNames(
                           isCurrent
                             ? "text-black border-b-2 border-indigo-500"
-                            : "text-black hover:text-white hover:border-b-2 hover:border-indigo-400",
+                            : "text-black hover:text-green-500 hover:border-b-2 hover:border-indigo-400",
                           "inline-flex items-center px-3 py-2 text-sm font-medium transition"
                         )}
                       >
