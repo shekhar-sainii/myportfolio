@@ -14,7 +14,7 @@ export default function Footer() {
           
           {/* Brand Info */}
           <div className="text-center md:text-left">
-            <h2 className="text-2xl font-bold text-white">Shekhar</h2>
+            <h2 className="text-2xl font-bold text-white">Shekhar Saini</h2>
             <p className="text-sm text-gray-400 mt-2">Frontend Developer & Learner</p>
           </div>
 

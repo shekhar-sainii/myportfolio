@@ -101,7 +101,7 @@ export default function Example() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-9 w-9 rounded-full object-cover"
-                        src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?cs=srgb&dl=pexels-italo-melo-881954-2379005.jpg&fm=jpg"
+                         src={"assets/img2.jpeg"} 
                         alt="User avatar"
                       />
                     </MenuButton>

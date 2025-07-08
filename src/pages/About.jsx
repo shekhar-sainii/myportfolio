@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -17,7 +18,7 @@ export default function About() {
         <div>
           <h2 className="text-3xl font-bold text-gray-800 mb-4">About Me</h2>
           <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
-            I'm <span className="font-semibold text-indigo-600">Shekhar</span>, a passionate Frontend Developer with a love for clean UI, performance, and modern web technologies. I specialize in building fast, accessible, and responsive websites using tools like React, Tailwind CSS, and JavaScript.
+            I'm <span className="font-semibold text-indigo-600">Shekhar</span>, a passionate Full Stack Web Developer with a love for clean UI, performance, and modern web technologies. I specialize in building fast, accessible, and responsive websites using tools like React.js, Node.js,  Tailwind CSS, and JavaScript.
           </p>
 
           <p className="text-gray-600 mt-4 text-sm sm:text-base">
@@ -28,7 +29,7 @@ export default function About() {
           <div className="mt-6">
             <h3 className="text-lg font-semibold text-gray-700 mb-2">Tech Stack</h3>
             <div className="flex flex-wrap gap-2">
-              {["React", "JavaScript", "Tailwind CSS", "Git", "HTML", "CSS", "REST API"].map((skill, i) => (
+              {["React","Node", "JavaScript", "Tailwind CSS", "Git", "HTML", "CSS", "REST API"].map((skill, i) => (
                 <span
                   key={i}
                   className="bg-indigo-100 text-indigo-700 text-xs px-3 py-1 rounded-full font-medium"
@@ -41,12 +42,13 @@ export default function About() {
 
           {/* Optional Button */}
           <div className="mt-6">
-            <a
-              href="#contact"
+            <Link
+            to={"/contact"}
               className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-md text-sm font-semibold hover:bg-indigo-700 transition"
+          
             >
-              Contact Me
-            </a>
+            Contact Me
+            </Link>
           </div>
         </div>
       </div>

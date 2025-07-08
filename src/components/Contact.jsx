@@ -92,7 +92,7 @@ export default function Contact() {
           <div className="text-center pt-2">
             <button
               type="submit"
-              className="w-full bg-indigo-600 text-white font-semibold py-2.5 rounded-md hover:bg-indigo-700 transition duration-300"
+              className="w-full bg-yellow-600 text-white font-semibold py-2.5 rounded-md hover:bg-[#a86b32] transition duration-300"
             >
               Send Message
             </button>

@@ -32,7 +32,7 @@ export default function Home() {
       <section className="min-h-screen flex flex-col justify-center items-center text-center px-4 text-black">
         {/* 👤 Profile Image */}
         <img
-          src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?cs=srgb&dl=pexels-italo-melo-881954-2379005.jpg&fm=jpg" // 🔁 replace with your image URL
+          src={"assets/img2.jpeg"} // 🔁 replace with your image URL
           alt="Shekhar's Profile"
           className="mt-[80px] w-32 h-32 rounded-full border-4 border-white shadow-lg mb-6 object-cover"
         />
@@ -41,18 +41,22 @@ export default function Home() {
           Full Stack Web Developer | React & Node Enthusiast
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="#projects"
+          <Link
+            to={"/projects"}
             className="bg-black text-white font-semibold px-6 py-3 rounded hover:bg-black-100 transition"
           >
             View Projects
-          </a>
+          </Link>
+
           <a
-            href="#contact"
+            href="/resume.pdf"
+            download
             className="bg-transparent border border-black text-black font-semibold px-6 py-3 rounded hover:bg-white hover:text-indigo-700 transition"
           >
-            Contact Me
+            Resume Download
           </a>
+
+
         </div>
       </section>
 
@@ -64,7 +68,7 @@ export default function Home() {
           responsive and accessible web apps using React, TypeScript, and
           Tailwind CSS. I love turning ideas into delightful user experiences.
         </p> */}
-        <About/>
+        <About />
       </section>
 
       {/* Projects Section */}
@@ -115,12 +119,12 @@ export default function Home() {
             Have a project or want to work together? Drop me a message!
           </p>
           <Link
-          to={"/contact"}
+            to={"/contact"}
             className="inline-block bg-black text-white px-6 py-3 rounded hover:bg-indigo-700 transition"
           >
-          Say Hello
+            Say Hello
           </Link>
-        
+
         </div>
       </section>
 
